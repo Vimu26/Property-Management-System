@@ -22,8 +22,12 @@
             "input": "apps/Web/public"
           }
         ],
-        "styles": ["apps/Web/src/styles.scss"],
-        "scripts": [],
+        "styles": [
+          "@angular/material/prebuilt-themes/azure-blue.css",
+          "apps/Web/src/styles.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
         "server": "apps/Web/src/main.server.ts",
         "ssr": {
           "entry": "apps/Web/src/server.ts"
@@ -35,13 +39,13 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "500kb",
-              "maximumError": "1mb"
+              "maximumWarning": "1.2mb",
+              "maximumError": "1.5mb"
             },
             {
               "type": "anyComponentStyle",
-              "maximumWarning": "4kb",
-              "maximumError": "8kb"
+              "maximumWarning": "98kb",
+              "maximumError": "100kb"
             }
           ],
           "outputHashing": "all"
