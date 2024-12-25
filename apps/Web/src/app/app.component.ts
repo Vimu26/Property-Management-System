@@ -3,11 +3,12 @@ import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material.module';
+import { HeaderComponentComponent } from './header-component/header-component.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, CommonModule, MaterialModule],
+  imports: [NxWelcomeComponent, RouterModule, CommonModule, MaterialModule , HeaderComponentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
