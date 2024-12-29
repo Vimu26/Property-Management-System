@@ -1,0 +1,30 @@
+:root {
+    /* Colors */
+    --primary-color: #007bff;
+    --primary-bg-color: #007bff;
+    --secondary-color: #7d6c7d;
+    --background-color: #ffffff;
+    --primary-bg-text-color: #ffffff;
+    --text-color: #000000;
+  
+    /* Fonts */
+    --font-family-base: 'Roboto', sans-serif;
+    --font-family-heading: 'Montserrat', sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 24px;
+  }
+  
+  .dark-theme {
+    /* Colors */
+    --primary-color: #1a1a1a;
+    --secondary-color: #444444;
+    --background-color: #000000;
+    --text-color: #ffffff;
+  
+    /* Fonts */
+    --font-family-base: 'Open Sans', sans-serif;
+    --font-family-heading: 'Poppins', sans-serif;
+    --font-size-base: 18px;
+    --font-size-heading: 24px;
+  }
+  
