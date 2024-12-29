@@ -8,7 +8,7 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, CommonModule, MaterialModule , HeaderComponentComponent],
+  imports: [RouterModule, CommonModule, MaterialModule , HeaderComponentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
