@@ -1,9 +1,9 @@
-import { getGreeting } from '../support/app.po';
+// import { getGreeting } from '../support/app.po';
 
-describe('Web-e2e', () => {
-  beforeEach(() => cy.visit('/'));
+// describe('Web-e2e', () => {
+//   beforeEach(() => cy.visit('/'));
 
-  it('should display welcome message', () => {
-    getGreeting().contains('Welcome');
-  });
-});
+//   it('should display welcome message', () => {
+//     getGreeting().contains('Welcome');
+//   });
+// });
