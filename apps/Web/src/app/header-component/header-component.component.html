@@ -12,7 +12,12 @@
       <div class="col-auto">
         <!-- Large and Medium Screens -->
         <div class="d-none d-md-flex flex-wrap gap-5">
-          <button mat-icon-button class="d-none d-lg-inline-flex">
+          <button
+            mat-icon-button
+            [matBadge]="notificationCount"
+            matBadgeOverlap="true"
+            class="d-none d-lg-inline-flex"
+          >
             <mat-icon>notifications_none</mat-icon>
           </button>
 
