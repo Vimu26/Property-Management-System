@@ -1,0 +1,42 @@
+.carousel {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+
+    li {
+      margin: 0 5px;
+    }
+
+    li button:before {
+      color: white;
+      font-size: 12px;
+    }
+
+    li.slick-active button:before {
+      color: #ff9800;
+    }
+  }
+}
