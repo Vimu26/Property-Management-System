@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-side-nav-component',
   imports: [CommonModule],
-  standalone:true,
+  standalone: true,
   templateUrl: './side-nav-component.component.html',
   styleUrl: './side-nav-component.component.scss',
 })
